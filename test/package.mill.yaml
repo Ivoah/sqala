@@ -1,0 +1,4 @@
+extends: [build.ScalaTests, TestModule.Utest]
+mvnDeps:
+- com.lihaoyi::utest:0.10.0-RC1
+- org.xerial:sqlite-jdbc:3.50.3.0

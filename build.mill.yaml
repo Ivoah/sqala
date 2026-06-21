@@ -1,0 +1,12 @@
+extends: [ScalaModule, PublishModule, SonatypeCentralPublishModule]
+scalaVersion: 3.3.8
+publishVersion: 0.0.1
+artifactName: sqala
+mvnDeps: []
+pomSettings:
+  description: SQL helper library for Scala
+  organization: "net.ivoah"
+  url: "https://github.com/ivoah/sqala"
+  licenses: [MIT]
+  versionControl: "https://github.com/ivoah/sqala"
+  developers: [{name: "Noah Rosamilia", email: "noah@ivoah.net"}]
