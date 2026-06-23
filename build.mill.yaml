@@ -1,12 +1,12 @@
 extends: [ScalaModule, PublishModule, SonatypeCentralPublishModule]
 scalaVersion: 3.3.8
-publishVersion: 0.0.1
-artifactName: sqala
+publishVersion: 0.0.2
+artifactName: squall
 mvnDeps: []
 pomSettings:
   description: SQL helper library for Scala
   organization: "net.ivoah"
-  url: "https://github.com/ivoah/sqala"
+  url: "https://github.com/ivoah/squall"
   licenses: [MIT]
-  versionControl: "https://github.com/ivoah/sqala"
+  versionControl: "https://github.com/ivoah/squall"
   developers: [{name: "Noah Rosamilia", email: "noah@ivoah.net"}]

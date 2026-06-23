@@ -1,4 +1,4 @@
-package net.ivoah.sqala
+package net.ivoah.squall
 
 import java.sql.*
 import java.time.LocalDate
